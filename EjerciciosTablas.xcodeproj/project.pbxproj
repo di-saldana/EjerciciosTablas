@@ -13,6 +13,8 @@
 		EF4DC01D2AEC4E1200D16522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4DC01B2AEC4E1200D16522 /* Main.storyboard */; };
 		EF4DC01F2AEC4E1400D16522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4DC01E2AEC4E1400D16522 /* Assets.xcassets */; };
 		EF4DC0222AEC4E1400D16522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4DC0202AEC4E1400D16522 /* LaunchScreen.storyboard */; };
+		EF4DC0302AEC52D900D16522 /* DelegateTabla.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4DC02F2AEC52D900D16522 /* DelegateTabla.swift */; };
+		EF4DC0322AEC531B00D16522 /* DSTabla.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4DC0312AEC531B00D16522 /* DSTabla.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EF4DC01E2AEC4E1400D16522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4DC0212AEC4E1400D16522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF4DC0232AEC4E1400D16522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4DC02F2AEC52D900D16522 /* DelegateTabla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateTabla.swift; sourceTree = "<group>"; };
+		EF4DC0312AEC531B00D16522 /* DSTabla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTabla.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				EF4DC01E2AEC4E1400D16522 /* Assets.xcassets */,
 				EF4DC0202AEC4E1400D16522 /* LaunchScreen.storyboard */,
 				EF4DC0232AEC4E1400D16522 /* Info.plist */,
+				EF4DC02F2AEC52D900D16522 /* DelegateTabla.swift */,
+				EF4DC0312AEC531B00D16522 /* DSTabla.swift */,
 			);
 			path = EjerciciosTablas;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4DC0302AEC52D900D16522 /* DelegateTabla.swift in Sources */,
 				EF4DC01A2AEC4E1200D16522 /* ViewController.swift in Sources */,
+				EF4DC0322AEC531B00D16522 /* DSTabla.swift in Sources */,
 				EF4DC0162AEC4E1200D16522 /* AppDelegate.swift in Sources */,
 				EF4DC0182AEC4E1200D16522 /* SceneDelegate.swift in Sources */,
 			);
